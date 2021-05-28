@@ -1,0 +1,27 @@
+header {
+  background-color: #2b2b2b;
+  color: #ffffff;
+}
+
+main {
+  background-color: #efefef;
+  color: #4c4c4c;
+}
+
+article {
+  background-color: #ffffff;
+}
+
+.url-wrapper {
+  background-color: #efefef;
+}
+
+.counter {
+  color: #24b4fd;
+}
+
+.fa-user,
+.fa-angle-down,
+.username {
+  color: #24b4fd;
+}
