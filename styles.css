@@ -14,7 +14,7 @@ header {
   background-color: #2b2b2b;
   color: #ffffff;
   padding: 1em;
-  min-height: 8em;
+  min-height: 19vh;
 }
 
 main {
@@ -27,6 +27,7 @@ article {
   background-color: #ffffff;
   color: #5c5c5c;
   box-shadow: 0px 0px 6px #9f9f9f;
+  margin-bottom: 2em;
 }
 
 img {
