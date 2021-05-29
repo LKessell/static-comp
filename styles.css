@@ -42,6 +42,12 @@ button {
   font-size: 1.5em;
   color: #4c4c4c;
   cursor: pointer;
+  transition: color 0.3s, border 0.3s;
+}
+
+button:hover {
+  color: #24b4fd;
+  border: 1px solid #24b4fd;
 }
 
 .user-wrapper {
@@ -76,6 +82,11 @@ nav a {
   line-height: 30px;
   color: #efefef;
   margin: 30px 10px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #24b4fd;
 }
 
 label {
