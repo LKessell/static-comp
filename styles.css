@@ -4,25 +4,26 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  background-color: #efefef;
+}
+
 header {
   background-color: #2b2b2b;
   color: #ffffff;
+  padding: 1em;
 }
 
 main {
-  background-color: #efefef;
   color: #4c4c4c;
-  height: 100%;
 }
 
 article {
   height: 400px;
   width: 300px;
   background-color: #ffffff;
-}
-
-body {
-  min-height: 100vh;
 }
 
 img {
@@ -34,6 +35,16 @@ button {
   height: 50px;
   border-radius: 25px;
   border: none;
+}
+
+.user-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-title-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .fa-share {
