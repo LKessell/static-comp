@@ -1,46 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Static Comp</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="./styles.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/10ffbe374d.js" crossorigin="anonymous"></script>
-    <title>Static Comp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <header>
-      <div>
+      <section class="user-wrapper">
         <i class="fas fa-user"></i>
-        <p>Cool Username</p>
+        <p class="username">Cool Username</p>
         <i class="fas fa-angle-down"></i>
-      </div>
-      <nav>
-        <a href="#option1">Option 1</a>
-        <a href="option2">Option 2</a>
-        <a href="option3">Option 3</a>
-      </nav>
-      <div>
-        <h1>Coolness Inc.</h1>
-        <i class="fas fa-atom"></i>
+      </section>
+      <div class="nav-title-wrapper">
+        <h1>Fishy! <i class="fas fa-fish"></i></h1>
+        <label for="menu-toggle"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="menu-toggle">
+        <nav>
+          <a href="#">Option 1</a>
+          <a href="#">Option 2</a>
+          <a href="#">Option 3</a>
+        </nav>
       </div>
     </header>
     <main>
       <h2>Option 1</h2>
-      <section>
+      <section class="article-container">
         <article>
-          <div>
-            <img>
+          <div class="image-wrapper">
+            <img src="./assets/mandarin.jpg" alt="mandarinfish">
             <div class="image-overlay">
               <button><i class="fas fa-share"></i></button>
-              <p>views</p>
-              <p>02</p>
+              <div class="overlay-text">
+                <p>views</p>
+                <p class="counter views">02</p>
+              </div>
             </div>
           </div>
-          <p class="name-text">Recipient's Namehere</p>
-          <p class="date-text">Friday 05/28/21 12:45pm</p>
-          <div>http://www.example.com</div>
-          <h3>Playlist</h3>
-          <p class="name-text">Name of Playlist</p>
-          <h3>Attachments</h3>
-          <p class="counter">04</p>
+          <section class="article-text">
+            <p class="name-text">Recipient's Namehere</p>
+            <p class="date-text">Friday 05/28/21 12:45pm</p>
+            <div class="url-wrapper">http://www.example.com/extremely-cool-fish</div>
+            <h3>Playlist</h3>
+            <p class="name-text playlist">Name of Playlist</p>
+            <h3>Attachments</h3>
+            <p class="counter">04</p>
+          </section>
+        </article>
+        <article>
+          <div class="image-wrapper">
+            <img src="./assets/clownfish.jpg" alt="clownfish">
+            <div class="image-overlay">
+              <button><i class="fas fa-share"></i></button>
+              <div class="overlay-text">
+                <p>views</p>
+                <p class="counter views">02</p>
+              </div>
+            </div>
+          </div>
+          <section class="article-text">
+            <p class="name-text">Recipient's Namehere</p>
+            <p class="date-text">Friday 05/28/21 12:45pm</p>
+            <div class="url-wrapper">http://www.example.com/extremely-cool-fish</div>
+            <h3>Playlist</h3>
+            <p class="name-text playlist">Name of Playlist</p>
+            <h3>Attachments</h3>
+            <p class="counter">04</p>
+          </section>
+        </article>
+        <article>
+          <div class="image-wrapper">
+            <img src="./assets/butterflyfish.jpg" alt="butterflyfish">
+            <div class="image-overlay">
+              <button><i class="fas fa-share"></i></button>
+              <div class="overlay-text">
+                <p>views</p>
+                <p class="counter views">02</p>
+              </div>
+            </div>
+          </div>
+          <section class="article-text">
+            <p class="name-text">Recipient's Namehere</p>
+            <p class="date-text">Friday 05/28/21 12:45pm</p>
+            <div class="url-wrapper">http://www.example.com/extremely-cool-fish</div>
+            <h3>Playlist</h3>
+            <p class="name-text playlist">Name of Playlist</p>
+            <h3>Attachments</h3>
+            <p class="counter">04</p>
+          </section>
+        </article>
+        <article>
+          <div class="image-wrapper">
+            <img src="./assets/fairywrasse.jpg" alt="fairy wrasse">
+            <div class="image-overlay">
+              <button><i class="fas fa-share"></i></button>
+              <div class="overlay-text">
+                <p>views</p>
+                <p class="counter views">02</p>
+              </div>
+            </div>
+          </div>
+          <section class="article-text">
+            <p class="name-text">Recipient's Namehere</p>
+            <p class="date-text">Friday 05/28/21 12:45pm</p>
+            <div class="url-wrapper">http://www.example.com/extremely-cool-fish</div>
+            <h3>Playlist</h3>
+            <p class="name-text playlist">Name of Playlist</p>
+            <h3>Attachments</h3>
+            <p class="counter">04</p>
+          </section>
         </article>
       </section>
     </main>

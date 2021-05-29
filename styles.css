@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  background-color: #efefef;
+}
+
+header {
+  background-color: #2b2b2b;
+  color: #ffffff;
+  padding: 1em;
+  min-height: 19vh;
+}
+
+main {
+  color: #4c4c4c;
+}
+
+article {
+  height: 440px;
+  width: 320px;
+  background-color: #ffffff;
+  color: #5c5c5c;
+  box-shadow: 0px 0px 6px #9f9f9f;
+  margin-bottom: 2em;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.5em;
+  color: #4c4c4c;
+  cursor: pointer;
+  transition: color 0.3s, border 0.3s;
+}
+
+button:hover {
+  color: #24b4fd;
+  border: 1px solid #24b4fd;
+}
+
+.user-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.7em;
+  margin-bottom: 1em;
+}
+
+.nav-title-wrapper {
+  position: relative;
+}
+
+h1 {
+  text-align: right;
+}
+
+h2 {
+  margin: 1em;
+}
+
+nav {
+  display: none;
+  width: 100%;
+  text-align: left;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  height: 30px;
+  line-height: 30px;
+  color: #efefef;
+  margin: 30px 10px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #24b4fd;
+}
+
+label {
+  font-size: 30px;
+  text-align: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  cursor: pointer;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked ~ nav {
+  display: block;
+}
+
+.fa-share {
+  height: 15px;
+}
+
+.url-wrapper {
+  background-color: #efefef;
+  margin: 1.4em 0;
+  padding: 0.7em;
+  font-size: 0.8em;
+}
+
+.counter {
+  color: #24b4fd;
+  font-size: 2em;
+  line-height: 0.8em;
+}
+
+.views {
+  color: #ffffff;
+}
+
+.fa-user,
+.fa-angle-down,
+.username {
+  color: #24b4fd;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 140px;
+}
+
+.image-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 320px;
+  height: 202px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.overlay-text {
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.name-text {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.date-text {
+  color: #a5a5a6;
+  font-size: 0.8em;
+}
+
+.article-text {
+  padding: 1.4em;
+}
+
+.playlist {
+  margin-bottom: 1em;
+}
