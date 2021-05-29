@@ -14,6 +14,7 @@ header {
   background-color: #2b2b2b;
   color: #ffffff;
   padding: 1em;
+  min-height: 8em;
 }
 
 main {
@@ -43,8 +44,45 @@ button {
 }
 
 .nav-title-wrapper {
-  display: flex;
-  justify-content: space-between;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+h1 {
+  text-align: right;
+}
+
+nav {
+  display: none;
+  width: 100%;
+  text-align: left;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  height: 30px;
+  line-height: 30px;
+  color: #efefef;
+  margin: 30px 10px;
+}
+
+label {
+  font-size: 30px;
+  text-align: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  cursor: pointer;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked ~ nav {
+  display: block;
 }
 
 .fa-share {
