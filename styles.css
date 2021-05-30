@@ -13,7 +13,7 @@ body {
 header {
   background-color: #2b2b2b;
   color: #ffffff;
-  padding: 1em;
+  padding: 6vw;
   min-height: 19vh;
 }
 
@@ -53,8 +53,7 @@ button:hover {
 .user-wrapper {
   display: flex;
   justify-content: flex-end;
-  font-size: 0.7em;
-  margin-bottom: 1em;
+  margin-bottom: 4vw;
 }
 
 .nav-title-wrapper {
@@ -66,6 +65,7 @@ h1 {
 }
 
 h2 {
+  font-size: 7vw;
   margin: 1em;
 }
 
@@ -75,12 +75,20 @@ nav {
   text-align: left;
 }
 
+.fa-seedling,
+.fa-dragon {
+  color: #24b4fd;
+  margin: 0.1em;
+}
+
 nav a {
   display: block;
   text-decoration: none;
   height: 30px;
   line-height: 30px;
-  color: #efefef;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #969696;
   margin: 30px 10px;
   transition: color 0.3s;
 }
@@ -90,12 +98,12 @@ nav a:hover {
 }
 
 label {
-  font-size: 30px;
+  font-size: 8vw;
   text-align: left;
   display: block;
   position: absolute;
   top: 0;
-  left: 20px;
+  left: 2vw;
   cursor: pointer;
 }
 
@@ -129,10 +137,11 @@ label {
 }
 
 .fa-user,
-.fa-angle-down,
+.fa-caret-down,
 .username {
+  font-size: 3vw;
   color: #24b4fd;
-  margin: 2px;
+  margin: 0.2em;
   cursor: pointer;
 }
 
@@ -145,7 +154,7 @@ label {
 .image-wrapper {
   position: relative;
   overflow: hidden;
-  height: 140px;
+  height: 150px;
 }
 
 .image-overlay {
@@ -188,4 +197,107 @@ h3 {
 
 .playlist {
   margin-bottom: 1em;
+}
+
+.active {
+  color: #ffffff;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 500px) {
+  h1 {
+    font-size: 8vw;
+  }
+
+  .username-wrapper * {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  label {
+    font-size: 6vw;
+  }
+
+  .user-wrapper * {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (min-width: 705px) {
+  .article-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+  }
+
+  article {
+    margin: 0.5em 0.5em;
+  }
+
+  h2 {
+    font-size: 5vw;
+  }
+
+  h1 {
+    font-size: 6vw;
+    display: inline;
+  }
+
+  .user-wrapper * {
+    font-size: 2vw;
+  }
+
+  nav a {
+    font-size: 2.75vw;
+  }
+
+  .nav-title-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  header {
+    min-height: 22vh;
+    padding: 2em;
+  }
+
+  label {
+    display: none;
+  }
+
+  nav {
+    display: inline;
+    width: auto;
+  }
+
+  nav a {
+    display: inline;
+  }
+
+  .user-wrapper {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  h2 {
+    font-size: 3.5vw;
+    margin: 0.8em 0.8em 0.4em 0.4em;
+  }
+
+  h1 {
+    font-size: 4vw;
+  }
+
+  nav a {
+    font-size: 2vw;
+  }
+
+  .user-wrapper * {
+    font-size: 1vw;
+  }
 }
