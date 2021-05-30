@@ -66,7 +66,7 @@ h1 {
 }
 
 h2 {
-  font-size: 6vw;
+  font-size: 7vw;
   margin: 1em;
 }
 
@@ -76,12 +76,20 @@ nav {
   text-align: left;
 }
 
+.fa-seedling,
+.fa-dragon {
+  color: #24b4fd;
+  margin: 0.1em;
+}
+
 nav a {
   display: block;
   text-decoration: none;
   height: 30px;
   line-height: 30px;
-  color: #efefef;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #969696;
   margin: 30px 10px;
   transition: color 0.3s;
 }
@@ -130,7 +138,7 @@ label {
 }
 
 .fa-user,
-.fa-angle-down,
+.fa-caret-down,
 .username {
   color: #24b4fd;
   margin: 0.2em;
@@ -146,7 +154,7 @@ label {
 .image-wrapper {
   position: relative;
   overflow: hidden;
-  height: 140px;
+  height: 150px;
 }
 
 .image-overlay {
@@ -189,6 +197,11 @@ h3 {
 
 .playlist {
   margin-bottom: 1em;
+}
+
+.active {
+  color: #ffffff;
+  pointer-events: none;
 }
 
 @media screen and (min-width: 800px) {
