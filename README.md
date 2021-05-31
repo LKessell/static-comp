@@ -1,7 +1,9 @@
 # Static Comp Solo Challenge
 
 ## Overview
-This solo challenge was completed during Mod 2 at the Turing School of Software and Design. The main goal of this project was to practice creating a responsive webpage layout in HTML and CSS based on a given comp. The original comp was a desktop-sized layout, so one of the challenges was to scale the given layout down for smaller screens. This project was also a great opportunity to practice with FlexBox.
+This solo challenge was completed during Mod 2 at the Turing School of Software and Design. The main goal of this project was to practice creating a responsive webpage layout in HTML and CSS based on a given comp. The original comp was a desktop-sized layout, so one of the challenges was to scale the given layout down for smaller screens. This project was also a great opportunity to practice with FlexBox.  
+
+The project spec can be [viewed here](https://frontend.turing.edu/projects/module-1/m1-static-comp).
 
 ## Comp Comparison
 Original Comp:  
