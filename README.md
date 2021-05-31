@@ -5,6 +5,8 @@ This solo challenge was completed during Mod 2 at the Turing School of Software 
 
 The project spec can be [viewed here](https://frontend.turing.edu/projects/module-1/m1-static-comp).
 
+### [Check out the interactive Comp!](https://lkessell.github.io/static-comp/)
+
 ## Comp Comparison
 Original Comp:  
 <img src="https://frontend.turing.edu/assets/images/static-comp-challenge-2.jpg" width="800" alt="Original Comp">
