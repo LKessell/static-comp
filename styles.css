@@ -149,7 +149,7 @@ label {
   cursor: pointer;
 }
 
-.fa-caret-down:hover {
+.username:hover ~ .fa-caret-down {
   transform: translateY(2px);
 }
 
