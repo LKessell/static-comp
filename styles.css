@@ -139,10 +139,6 @@ article {
   margin-bottom: 2em;
 }
 
-img {
-  width: 100%;
-}
-
 button {
   width: 17vw;
   height: 17vw;
@@ -157,6 +153,10 @@ button {
 button:hover {
   color: #24b4fd;
   transform: scale(1.1, 1.1);
+}
+
+img {
+  width: 100%;
 }
 
 .image-wrapper {
@@ -218,12 +218,14 @@ h3 {
 }
 
 @media screen and (min-width: 500px) {
+
   h1 {
     font-size: 8vw;
   }
 }
 
 @media screen and (min-width: 600px) {
+
   label {
     font-size: 6vw;
   }
@@ -234,6 +236,7 @@ h3 {
 }
 
 @media screen and (min-width: 705px) {
+
   .article-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -379,6 +382,7 @@ h3 {
 }
 
 @media screen and (min-width: 1000px) {
+
   .user-wrapper * {
     font-size: 1.5vw;
   }
@@ -396,5 +400,41 @@ h3 {
 
   nav a {
     font-size: 1.5vw;
+  }
+
+  article {
+    margin: 0.5em 0.5em;
+    height: 30vw;
+    width: 22.25vw;
+  }
+
+  .image-wrapper {
+    height: 10vw;
+  }
+
+  .image-overlay {
+    height: 11.5vw;
+    padding: 1.25vw;
+  }
+
+  button {
+    width: 4.25vw;
+    height: 4.25vw;
+    border-radius: 2.125vw;
+    font-size: 1.75vw;
+  }
+
+  .counter {
+    font-size: 2vw;
+  }
+
+  .name-text {
+    font-size: 1.25vw;
+  }
+
+  .date-text,
+  .url-wrapper,
+  h3 {
+    font-size: 0.875vw;
   }
 }
